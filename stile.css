@@ -52,3 +52,15 @@
   text-align: center;
   border-radius: 30px;
 }
+#box1{
+  min-width: 1001px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: none;
+  text-align: center;
+  margin-top: 0px;
+}
+.casella{
+  display: inline-block;
+  padding: 80px 40px 20px 40px
+}
