@@ -11,7 +11,7 @@
 #headline{
   box-shadow: 0px 5px 15px black;
   opacity: 0, 3;
-  position: fixed;
+  position: fixed-top;
   background-color: black;
   width: 100%;
   height: 70px;
@@ -52,6 +52,9 @@
   text-align: center;
   border-radius: 30px;
 }
+#spazio{
+  padding: 180px 0px 0px 0px;
+}
 #box1{
   min-width: 1001px;
   max-width: 1200px;
@@ -59,8 +62,76 @@
   background-color: none;
   text-align: center;
   margin-top: 0px;
+  background-color: rgba(0, 0, 0, 0.60);
+  border-radius: 150px;
 }
 .casella{
   display: inline-block;
-  padding: 180px 40px 20px 40px
+  padding: 40px 40px 20px 40px;
+  color: white;
+}
+.box{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 1001px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+}
+p1{
+  letter-spacing: 5px; 
+  padding-top: -70px;
+}
+h2{
+  border-left: 10px solid hsl(0, 130%, 68%);
+  padding-left: 20px;
+  letter-spacing: 1px;
+}
+.elemento1{
+  display: inline-block;
+  width: 50%;
+  margin-top: -70px;
+}
+.elemento2 {
+    margin:auto;
+    display: inline-block;
+  }
+h1{
+  color:white;
+  text-align: center;
+  margin-top: 50px;
+}
+table{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 1001px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto; 
+}
+h3{
+  text-align: center;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 50px;
+}
+.fot{
+  display: inline-block;
+  margin: 5px 20px 5px 120px;
+}
+p3{
+    max-width: 500px;
+    font-size: 12px;
+}
+.top {
+    color: white;
+    background-color: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    text-align: center;
 }
