@@ -70,6 +70,11 @@
   padding: 40px 40px 20px 40px;
   color: white;
 }
+h3.sticky {
+  position: sticky;
+  top: 20;
+  padding: 5px;
+}
 .box{
    background-color: black;
    padding: 30px;
@@ -105,12 +110,20 @@ table{
    background-color: black;
    padding: 30px;
    color: white;
+   width: 1200px;
    min-width: 1001px;
    max-width: 1200px;
    margin: 20px auto 0px auto; 
 }
 h3{
   text-align: center;
+}
+td{
+  width: 500px !important;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 10px;
+  margin: 0px 10px;
 }
 footer{
   background-color: black;
