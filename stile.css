@@ -3,7 +3,7 @@
 }
 .background {
   margin: 0px;
-  background-image: url("novara-panorama.jpeg");
+  background-image: src("immagini/novara-panorama.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
